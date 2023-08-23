@@ -18,3 +18,6 @@ After that, you should be set, and the icons should work!
 If you're still having trouble, you can talk to me on the WarFork discord server
  https://discord.gg/VY95TKZ 
 ping me as @Margarinoslav, i'll most likely respond!
+
+![repository-open-graph-template (1)](https://github.com/margarinoslv/bwHUD/assets/79981890/e7d0b258-4060-4e41-be51-fb87f6928b3d)
+
