@@ -6,14 +6,12 @@ INSTALLATION TUTORIAL
 Put ALL of the folders provided into
 Documents\My Games\Warfork 2.1\basewf
 
-After installing bwHUD, I must warn you that the custom weapon icons don't work by themselves.
-You will have to go the following directory
-Steam\steamapps\common\fvi\fvi-launcher\applications\warfork\Warfork.app\Contents\Resources\basewf\
-and extract the data0_21pure.pk3 file (using 7-zip)
-after that go into the folder you just extracted and place the provided "gfx" folder inside, if it asks you to replace some files, say yes.
-And then, zip the folder and rename the extension to .pk3, instead of .zip
+After that, you should be set, and the everything should work!
 
-After that, you should be set, and the icons should work!
+If not, put the data 0_21pure.pk3 file in the steam directory for the game
+Steam\steamapps\common\fvi\fvi-launcher\applications\warfork\Warfork.app\Contents\Resources\basewf
+
+If it asks you to replace some shit, say yes.
 
 If you're still having trouble, you can talk to me on the WarFork discord server
  https://discord.gg/VY95TKZ 
