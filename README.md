@@ -8,10 +8,7 @@ Documents\My Games\Warfork 2.1\basewf
 
 After that, you should be set, and the everything should work!
 
-If not, put the data 0_21pure.pk3 file in the steam directory for the game
-Steam\steamapps\common\fvi\fvi-launcher\applications\warfork\Warfork.app\Contents\Resources\basewf
-
-If it asks you to replace some shit, say yes.
+Alternatively, you can use the provided .pk3 file and put in a "huds" folder yourself (also in the documents directory)
 
 If you're still having trouble, you can talk to me on the WarFork discord server
  https://discord.gg/VY95TKZ 
