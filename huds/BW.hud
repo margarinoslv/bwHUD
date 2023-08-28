@@ -52,6 +52,23 @@ if %WEAPON_ITEM
     // movecursor 0, IconSize - AmmoFontSize
     // drawStringNum %AMMO IconSize * HeightWidthR, 0, AmmoFontSize
 
+
+	setCustomWeaponIcons #WEAP_GUNBLADE 1 gfx/hud/icons/weaponbwhud/gunblade
+	setCustomWeaponIcons #WEAP_MACHINEGUN 1 gfx/hud/icons/weaponbwhud/machinegun
+	setCustomWeaponIcons #WEAP_RIOTGUN 1 gfx/hud/icons/weaponbwhud/riot
+	setCustomWeaponIcons #WEAP_GRENADELAUNCHER 1 gfx/hud/icons/weaponbwhud/grenade
+	setCustomWeaponIcons #WEAP_ROCKETLAUNCHER 1 gfx/hud/icons/weaponbwhud/rocket
+	setCustomWeaponIcons #WEAP_PLASMAGUN 1 gfx/hud/icons/weaponbwhud/plasma
+	setCustomWeaponIcons #WEAP_LASERGUN 1 gfx/hud/icons/weaponbwhud/laser
+	setCustomWeaponIcons #WEAP_ELECTROBOLT 1 gfx/hud/icons/weaponbwhud/electro
+	setCustomWeaponIcons #WEAP_GUNBLADE 0 gfx/hud/icons/weaponbwhud/nogun_gunblade
+	setCustomWeaponIcons #WEAP_MACHINEGUN 0 gfx/hud/icons/weaponbwhud/nogun_machinegun
+	setCustomWeaponIcons #WEAP_RIOTGUN 0 gfx/hud/icons/weaponbwhud/nogun_riot
+	setCustomWeaponIcons #WEAP_GRENADELAUNCHER 0 gfx/hud/icons/weaponbwhud/nogun_grenade
+	setCustomWeaponIcons #WEAP_ROCKETLAUNCHER 0 gfx/hud/icons/weaponbwhud/nogun_rocket
+	setCustomWeaponIcons #WEAP_PLASMAGUN 0 gfx/hud/icons/weaponbwhud/nogun_plasma
+	setCustomWeaponIcons #WEAP_LASERGUN 0 gfx/hud/icons/weaponbwhud/nogun_laser
+	setCustomWeaponIcons #WEAP_ELECTROBOLT 0 gfx/hud/icons/weaponbwhud/nogun_electro
     setAlign #LEFT, #TOP
     setcursor 0, #HEIGHT - 4 * 33
     drawWeaponIcons 0, 33, 30 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 30
@@ -61,10 +78,33 @@ endif
 
 setCursor #WIDTH #HEIGHT
 moveCursor -40 * 1.333 * %VIDHEIGHT / %VIDWIDTH, -40
-if %WEAPON_ITEM
 	setAlign 3 2
 	setSize 64 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 64
-	drawWeaponIcon
+	if %WEAPON_ITEM
+	if %WEAPON_ITEM == #ITEM_GUNBLADE
+		drawPicByName "gfx/hud/icons/weaponbwhud/gunblade"
+	endif
+	if %WEAPON_ITEM == #ITEM_RIOTGUN
+		drawPicByName "gfx/hud/icons/weaponbwhud/riot"
+	endif
+	if %WEAPON_ITEM == #ITEM_GRENADE_LAUNCHER
+		drawPicByName "gfx/hud/icons/weaponbwhud/grenade"
+	endif
+	if %WEAPON_ITEM == #ITEM_ROCKET_LAUNCHER
+		drawPicByName "gfx/hud/icons/weaponbwhud/rocket"
+	endif
+	if %WEAPON_ITEM == #ITEM_PLASMAGUN
+		drawPicByName "gfx/hud/icons/weaponbwhud/plasma"
+	endif
+	if %WEAPON_ITEM == #ITEM_LASERGUN
+		drawPicByName "gfx/hud/icons/weaponbwhud/laser"
+	endif
+	if %WEAPON_ITEM == #ITEM_ELECTROBOLT
+		drawPicByName "gfx/hud/icons/weaponbwhud/electro"
+	endif
+	if %WEAPON_ITEM == #ITEM_MACHINEGUN
+		drawPicByName "gfx/hud/icons/weaponbwhud/machinegun"
+endif
 endif
 
 moveCursor -5 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 4
