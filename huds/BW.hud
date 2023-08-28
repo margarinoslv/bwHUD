@@ -252,7 +252,7 @@ if %DOWNLOAD_IN_PROGRESS
 endif
 
 setAlign 2.5 0
-setCursor #WIDTH - 645 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 2
+setCursor 155 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 2
 setSize 300 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 40
 setFontFamily "Montserrat"
 setFontSize %VIDHEIGHT / 54
