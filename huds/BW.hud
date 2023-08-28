@@ -252,7 +252,7 @@ if %DOWNLOAD_IN_PROGRESS
 endif
 
 setAlign 2.5 0
-setCursor 155 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 2
+setCursor 155  * 1.333 * %VIDHEIGHT / %VIDWIDTH, 2
 setSize 300 * 1.333 * %VIDHEIGHT / %VIDWIDTH, 40
 setFontFamily "Montserrat"
 setFontSize %VIDHEIGHT / 54
@@ -298,3 +298,41 @@ if %CHASING != #NOTSET
 	setAlign #CENTER, #TOP
 	drawPlayerName %CHASING
 endif 
+
+//=======================================================
+// team message stats are used to give messages to the players about the state of things in gametypes
+//=======================================================
+
+if %MESSAGE_SELF
+		setColor 1, 1, 1, 1
+		setCursor #WIDTH / 2, 380
+		setAlign #CENTER, #TOP
+		drawStatString %MESSAGE_SELF
+endif
+
+// in race the messages are used for the top scores, so they use a different layout
+if %RACE == 0
+	if %MESSAGE_OTHER
+		setColor 1, 1, 1, 1
+		setCursor #WIDTH / 2, 504
+		setAlign #CENTER, #TOP
+		drawStatString %MESSAGE_OTHER
+	endif
+
+	if %MESSAGE_ALPHA
+		setColorToTeamColor #TEAM_ALPHA
+		setCursor 375, 565
+		setFontSize 36
+		setAlign #RIGHT, #TOP
+		drawStatString %MESSAGE_ALPHA
+	endif
+
+	if %MESSAGE_BETA
+		setColorToTeamColor #TEAM_BETA
+		setCursor 425, 565
+		setFontSize 36
+		setAlign #LEFT, #TOP
+		drawStatString %MESSAGE_BETA
+	endif
+endif
+
