@@ -19,7 +19,10 @@ ping me as @Margarinoslav, i'll most likely respond!
 
 ![repository-open-graph-template (1)](https://github.com/margarinoslv/bwHUD/assets/79981890/e7d0b258-4060-4e41-be51-fb87f6928b3d)
 # The in-game look of the HUD
-![image](https://github.com/margarinoslv/bwHUD/assets/79981890/ffaabec6-196f-4252-b707-35a4d13301ab)
-
+![20230828192148_1](https://github.com/margarinoslv/bwHUD/assets/79981890/dcd87d51-9aa5-41f8-af00-b251fdf4974a)
+# Spectator HUD
+![20230828191952_1](https://github.com/margarinoslv/bwHUD/assets/79981890/5913283e-48cb-48be-840b-4dba55ba8719)
+# Loading HUD
+![20230828191906_1](https://github.com/margarinoslv/bwHUD/assets/79981890/6159dfbc-b6bf-4bb3-a6fe-6042d4f95a3e)
 
 
