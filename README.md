@@ -4,7 +4,7 @@ A custom HUD for Warfork with a black and white aesthetic.
 INSTALLATION TUTORIAL
 
 Put ALL of the folders provided into
-Documents\My Games\Warfork 2.1\basewf
+Documents\My Games\Warfork 2.1\basewf\huds (if you don't have a huds folder, just make one)
 
 After that, you should be set, and the everything should work!
 
