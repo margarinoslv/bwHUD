@@ -339,10 +339,6 @@ if %CHASING != #NOTSET
 	drawPlayerName %CHASING
 endif 
 
-//=======================================================
-// team message stats are used to give messages to the players about the state of things in gametypes
-//=======================================================
-
 if %MESSAGE_SELF
 		setColor 1, 1, 1, 1
 		setCursor #WIDTH / 2, 380
@@ -376,3 +372,19 @@ if %RACE == 0
 	endif
 endif
 
+if %TEAM >= #TEAM_ALPHA
+	setAlign #CENTER, #MIDDLE
+	drawTeamMates
+endif
+
+if %TEAM >= #TEAM_BETA
+	setAlign #CENTER, #MIDDLE
+	drawTeamMates
+endif
+
+setFontFamily Montserrat
+setFontSize 18
+setColor 1 1 1 1
+setAlign #CENTER #MIDDLE
+setCursor #WIDTH / 2 #HEIGHT / 34
+drawPointing
