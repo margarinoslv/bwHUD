@@ -6,7 +6,7 @@ INSTALLATION TUTORIAL
 Put ALL of the folders provided into
 Documents\My Games\Warfork 2.1\basewf\
 
-After that, you should be set, and the everything should work!
+After that, you should be set, and everything should work!
 
 Alternatively, you can use the provided .pk3 file and put in a "huds" folder yourself (also in the documents directory)
 
