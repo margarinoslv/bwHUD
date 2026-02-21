@@ -10,10 +10,6 @@ After that, you should be set, and everything should work!
 
 Alternatively, you can use the provided .pk3 file and put in a "huds" folder yourself (also in the documents directory)
 
-If you're still having trouble, you can talk to me on the WarFork discord server
- https://discord.gg/VY95TKZ 
-ping me as @margarinoslav, i'll most likely respond!
-
 ![repository-open-graph-template (1)](https://github.com/margarinoslv/bwHUD/assets/79981890/e7d0b258-4060-4e41-be51-fb87f6928b3d)
 # The in-game look of the HUD
 ![20230828192148_1](https://github.com/margarinoslv/bwHUD/assets/79981890/dcd87d51-9aa5-41f8-af00-b251fdf4974a)
